@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
+  <head>
   <title>Bootstrap Portfolio | Portfolio</title>  
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta content="Ryn Escarra-Cypher" name="author">
+  <!-- Reset CSS -->
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
   <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <!-- Main CSS -->
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
   <!--link href="./assets/css/style.css" rel="stylesheet" type="text/css"-->
 </head>
-<body>
-<header>
-  <div class="wrapper">
-  <div class="header nav">
-    <h1>Ryn Escarra-Cypher</h1>
-          <ul>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="index.html">About</a></li>            
-          </ul>
-  </div></div></header>
 
-<div class="wrapper">
-    
-<div class="main-content">
-<h2>Portfolio</h2>
-<hr>
-<div class="wrap">
+  <body><div class="container-fluid">
+    <div class="navbar-fixed-top nav">
+      <div class="container">
+        <ul class="pull-left">          
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">About</a></li>
+        </ul>
+        <div class="pull-right">
+          <h1>Ryn Escarra-Cypher</h1>
+        </div>
+      </div>
+    </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">    
+        <div class="main-content">
+          <h2>Portfolio</h2>
+          <hr>
         <div class="box one">
           <a href="#" target="_blank"><img class="image one" src="./assets/images/ex1.jpg" alt="technic stock image"></a>
           <div class="clearfix one">
@@ -72,24 +76,24 @@
           </div>
         </div>
         </div>
+      </div>
+       
+    <div class="col-sm-4">
+      <div class="sidebar">
+        <h2> Connect with Me</h2>
+        <hr>
+          <div class="sm-icon">
+            <a class= "icon" href="https://github.com/rescarra/" target="_blank"><img alt="github icon" class="icon" src="./assets/images/github.png"></a>
+
+            <a class= "icon" href="https://www.linkedin.com/in/rescarra/" target="_blank"><img alt="linkedin icon" class="icon" src="./assets/images/linkedin.png"></a>
+
+            <a class= "icon" href="https://stackoverflow.com/users/8419345/rescarra/" target="_blank"><img alt="stackoverflow icon" class="icon" src="./assets/images/stackoverflow.png"></a>
+          </div>
+        </div>
+    </div>
+  </div>
 </div>
-
-
-<div class="sidebar">
-<h2> Connect with Me</h2>
-<hr>
-<div class="sm-icon">
-    <a class= "icon" href="https://github.com/rescarra/" target="_blank"><img alt="github icon" class="icon" src="./assets/images/github.png"></a>
-
-    <a class= "icon" href="https://www.linkedin.com/in/rescarra/" target="_blank"><img alt="linkedin icon" class="icon" src="./assets/images/linkedin.png"></a>
-
-    <a class= "icon" href="https://stackoverflow.com/users/8419345/rescarra/" target="_blank"><img alt="stackoverflow icon" class="icon" src="./assets/images/stackoverflow.png"></a>
-</div>
-</div>
-
-</div>
-<footer>
-(c) Ryn Escarra-Cypher 2017
-</footer>
-</body>
+<footer><div class="foot footer-fixed-bottom">
+(c) Ryn Escarra-Cypher 2017</div></footer>
+</div></body>
 </html>

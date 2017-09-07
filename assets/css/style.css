@@ -1,6 +1,6 @@
 
 body {
-  margin: auto;
+  margin: auto 0px;
   overflow: scroll;
   background-image : url('../images/whirlpool.png');
   width: 100%;
@@ -8,40 +8,41 @@ body {
   color: #777777;
 }
 
-header {
-background-color: white;
-}
-
-.header {    
-	 background-color: white;
-    margin: auto;
-    display: inline;
-    width: 80%;
-}
-
 h1 {
-    color: #4aaaa5;
+    background-color: #4aaaa5;
+    color: #ffffff;
     font-family: Georgia, Times, 'Times New Roman', sans-serif;
     display: inline;
     float: left;
     padding: 20px;
     margin: auto;
     }
-h2 {
-color: #4aaaa5;
-font-family: Georgia, Times, 'Times New Roman', sans-serif;}
 
+h2{
+color: #4aaaa5;
+font-family: Georgia, Times, 'Times New Roman', sans-serif;
+
+}
+
+header {
+  background-color: #ffffff;
+   width:100%;
+ }
 
 .nav ul{
     list-style-type: none;
     margin: auto;
+    background-color: #ffffff;
+
 }
 
 .nav li a {
-    padding: 29px 19px 29px 19px;
-    background-color: #ffffff;
+    padding: 10px;
     display: inline-block;
     float: right;
+    margin-top: 20px;
+    background-color: #ffffff;
+
 }
 .nav a {
 color : #777777;
@@ -60,7 +61,7 @@ border: 1px;
 }
 
 .main-content {
-width:630px;
+width:100%;
 background-color: #fff;
 display:inline;
 float: left;
@@ -86,7 +87,7 @@ float: left;
 }
 
 .sidebar {
-width: 250px;
+width: 100%^;
 background-color: #fff;
 display: inline;
 float: right;
@@ -106,9 +107,9 @@ a.icon, img.icon {
 }
 
 img.icon {
-	max-width : 50px;
-	max-height : 50px;
-	padding: 10px;
+  max-width : 50px;
+  max-height : 50px;
+  padding: 10px;
 }
 
 footer {
@@ -219,22 +220,24 @@ bottom : 20px;
 left : 0;
 right : 0;
 text-align : center;
-padding : 5px;
 font-weight: bold;
 border-radius: 5px;
+margin-top:5px;
 }
 .desc p {
 font-size : 1em;
 font-family: georgia, times, 'times new roman', sans-serif;
+padding : 5px;
+
 }
 
 
 
 
-/* ** *** Media Queries *** ** */
+/* ** *** Media Queries *** ** 
 
 
-/* Small devices (landscape / phones)*/
+/* Small devices (landscape / phones)
 @media screen and (max-width: 640px), screen and (orientation: landscape){
   header {
     position: static;
@@ -289,7 +292,7 @@ div.sidebar {
 }
 }
 
-/* Medium devices (tablets)*/
+/* Medium devices (tablets)
 @media screen and (max-width: 768px) { 
   div.wrapper {
     width: 90%;
@@ -313,7 +316,7 @@ div.sidebar {
       margin: auto 0px;
     }
 }
-/* Large devices (desktops, laptop screens)*/
+/* Large devices (desktops, laptop screens)
 
 @media screen and (max-width: 980px) { 
 div.wrapper {
